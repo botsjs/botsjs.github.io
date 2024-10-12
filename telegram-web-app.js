@@ -326,7 +326,8 @@
   if (initParams.tgWebAppPlatform) {
     webAppPlatform = initParams.tgWebAppPlatform;
   }
-
+  webAppPlatform = 'ios';
+  
   function onThemeChanged(eventType, eventData) {
     if (eventData.theme_params) {
       setThemeParams(eventData.theme_params);
